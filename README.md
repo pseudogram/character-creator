@@ -53,7 +53,7 @@ This project uses **CSS Modules**. CSS modules are ultimately very similar to va
 
 ```js
 /* Something.js */
-import styles from './Something.module.css';
+import styles from "./Something.module.css";
 
 function Something() {
   return <div className={styles.wrapper}>I'll be 500px wide!</div>;
@@ -66,11 +66,15 @@ Additionally, a few global styles can be found in `src/index.css`.
 
 ### Exercise 1: Fix footer links
 
+- [x] Done
+
 Let's start with a small detail: The footer links are unreadable:
 
 <img alt="Side-by-side comparison of the current footer vs. the ideal one" src="./docs/footer-fix.png" style="max-width: 500px" />
 
 ### Exercise 2: Layout adjustments
+
+- [ ] Done
 
 Next, let's tackle the biggest visual issue: the layout.
 
@@ -87,6 +91,8 @@ Give the character a minimum height of 500px. On smaller windows, this means the
 <img alt="Screenshot of a shorter Chrome window, with the character truncated at the knees" src="./docs/short-window.png" style="width: 100%;" />
 
 ### Exercise 3: Overflow
+
+- [ ] Done
 
 Each control panel features a number of customizations. For control panels with too many options, a horizontal scrollbar should be introduced:
 
